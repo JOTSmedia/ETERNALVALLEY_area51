@@ -1,0 +1,365 @@
+{
+ "version": "EVR05-scatter-4",
+ "vertexLayout": "EVR05-VC1",
+ "species": {
+  "fir_a": {
+   "cls": "tree",
+   "height_m": 19.0,
+   "hero": false,
+   "wind": true,
+   "glb": {
+    "desktop": "fir_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "fir_a_instances.evsi"
+   },
+   "count": 12696,
+   "impostor": {
+    "albedo": {
+     "desktop": "fir_a_impostor_512.ktx2",
+     "mobile": "fir_a_impostor_512.ktx2",
+     "low": "fir_a_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "fir_a_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 10.002741816797576,
+     "pivot_offset_z": 9.892231941223145,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   },
+   "skipLod1": true
+  },
+  "cherry_a": {
+   "cls": "tree",
+   "height_m": 8.0,
+   "hero": true,
+   "wind": true,
+   "glb": {
+    "desktop": "cherry_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "cherry_a_instances.evsi"
+   },
+   "count": 631,
+   "impostor": {
+    "albedo": {
+     "desktop": "cherry_a_impostor_512.ktx2",
+     "mobile": "cherry_a_impostor_512.ktx2",
+     "low": "cherry_a_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "cherry_a_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 4.653318436796679,
+     "pivot_offset_z": 4.037847995758057,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   }
+  },
+  "fern_a": {
+   "cls": "shrub",
+   "height_m": 0.8,
+   "hero": false,
+   "wind": true,
+   "glb": {
+    "desktop": "fern_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "fern_a_instances.evsi"
+   },
+   "count": 8329
+  },
+  "rock_a": {
+   "cls": "rock",
+   "height_m": 0.9,
+   "hero": false,
+   "wind": false,
+   "glb": {
+    "desktop": "rock_a_LODs_rock.glb"
+   },
+   "instances": {
+    "desktop": "rock_a_instances.evsi"
+   },
+   "count": 32339,
+   "sharedRockTex": true
+  },
+  "broadleaf_a": {
+   "cls": "tree",
+   "height_m": 10.0,
+   "hero": true,
+   "wind": true,
+   "glb": {
+    "desktop": "broadleaf_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "broadleaf_a_instances.evsi"
+   },
+   "count": 3512,
+   "impostor": {
+    "albedo": {
+     "desktop": "broadleaf_a_impostor_512.ktx2",
+     "mobile": "broadleaf_a_impostor_512.ktx2",
+     "low": "broadleaf_a_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "broadleaf_a_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 6.9617839995256094,
+     "pivot_offset_z": 5.119782225403469,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   }
+  },
+  "broadleaf_b": {
+   "cls": "tree",
+   "height_m": 11.0,
+   "hero": true,
+   "wind": true,
+   "glb": {
+    "desktop": "broadleaf_b_LODs.glb"
+   },
+   "instances": {
+    "desktop": "broadleaf_b_instances.evsi"
+   },
+   "count": 1521,
+   "impostor": {
+    "albedo": {
+     "desktop": "broadleaf_b_impostor_512.ktx2",
+     "mobile": "broadleaf_b_impostor_512.ktx2",
+     "low": "broadleaf_b_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "broadleaf_b_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 11.156055071259873,
+     "pivot_offset_z": 5.577072613406926,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   }
+  },
+  "quiver_a": {
+   "cls": "rock",
+   "height_m": 6.0,
+   "hero": false,
+   "wind": false,
+   "glb": {
+    "desktop": "quiver_a_LODs_512.glb"
+   },
+   "instances": {
+    "desktop": "quiver_a_instances.evsi"
+   },
+   "count": 345,
+   "impostor": {
+    "albedo": {
+     "desktop": "quiver_a_impostor_512.ktx2",
+     "mobile": "quiver_a_impostor_512.ktx2",
+     "low": "quiver_a_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "quiver_a_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 3.093932646373831,
+     "pivot_offset_z": 3.003540047677234,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   },
+   "impostorOnly": true
+  },
+  "willow_a": {
+   "cls": "tree",
+   "height_m": 12.0,
+   "hero": true,
+   "wind": true,
+   "glb": {
+    "desktop": "willow_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "willow_a_instances.evsi"
+   },
+   "count": 219,
+   "impostor": {
+    "albedo": {
+     "desktop": "willow_a_impostor_512.ktx2",
+     "mobile": "willow_a_impostor_512.ktx2",
+     "low": "willow_a_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "willow_a_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 8.046678078187318,
+     "pivot_offset_z": 6.123743534088135,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   }
+  },
+  "red_maple_a": {
+   "cls": "tree",
+   "height_m": 13.0,
+   "hero": true,
+   "wind": true,
+   "glb": {
+    "desktop": "red_maple_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "red_maple_a_instances.evsi"
+   },
+   "count": 262,
+   "impostor": {
+    "albedo": {
+     "desktop": "red_maple_a_impostor_512.ktx2",
+     "mobile": "red_maple_a_impostor_512.ktx2",
+     "low": "red_maple_a_impostor_512.ktx2"
+    },
+    "nd": {
+     "desktop": "red_maple_a_impostor_nd_512.ktx2"
+    },
+    "meta": {
+     "radius": 6.592368256339885,
+     "pivot_offset_z": 6.135312557220459,
+     "grid": 8,
+     "res": 1024,
+     "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+     "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+     "normal": "object-space (Blender model frame) n*0.5+0.5",
+     "depth": "0.5 + (towards-camera offset)/(2R)",
+     "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+    }
+   }
+  },
+  "shrub_a": {
+   "cls": "shrub",
+   "height_m": 1.7,
+   "hero": false,
+   "wind": true,
+   "glb": {
+    "desktop": "shrub_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "shrub_a_instances.evsi"
+   },
+   "count": 17432
+  },
+  "desert_bush_a": {
+   "cls": "shrub",
+   "height_m": 1.1,
+   "hero": false,
+   "wind": true,
+   "glb": {
+    "desktop": "desert_bush_a_LODs.glb"
+   },
+   "instances": {
+    "desktop": "desert_bush_a_instances.evsi"
+   },
+   "count": 8651
+  },
+  "boulder_a": {
+   "cls": "rock",
+   "height_m": 2.2,
+   "hero": false,
+   "wind": false,
+   "glb": {
+    "desktop": "boulder_a_LODs_rock.glb"
+   },
+   "instances": {
+    "desktop": "boulder_a_instances.evsi"
+   },
+   "count": 6089,
+   "sharedRockTex": true
+  },
+  "desert_boulder_a": {
+   "cls": "rock",
+   "height_m": 2.6,
+   "hero": false,
+   "wind": false,
+   "glb": {
+    "desktop": "desert_boulder_a_LODs_rock.glb"
+   },
+   "instances": {
+    "desktop": "desert_boulder_a_instances.evsi"
+   },
+   "count": 1837,
+   "sharedRockTex": true
+  }
+ },
+ "vegArrays": {
+  "leaves": {
+   "desktop": "ev_veg_leaves_1k.ktx2",
+   "mobile": "ev_veg_leaves_512.ktx2",
+   "low": "ev_veg_leaves_512.ktx2"
+  },
+  "bark": {
+   "desktop": "ev_veg_bark_512.ktx2"
+  },
+  "leafLayers": [
+   "fir_a",
+   "broadleaf_a",
+   "broadleaf_b",
+   "willow_a",
+   "red_maple_a",
+   "cherry_a",
+   "shrub_a",
+   "fern_a",
+   "desert_bush_a",
+   "shrub_a_bb",
+   "fern_a_bb",
+   "desert_bush_a_bb"
+  ],
+  "barkLayers": [
+   "fir_a",
+   "broadleaf_a",
+   "broadleaf_b",
+   "willow_a",
+   "red_maple_a",
+   "cherry_a"
+  ]
+ },
+ "rockTex": {
+  "base": "ev_rock_base_512.ktx2",
+  "normal": "ev_rock_normal_512.ktx2",
+  "orm": "ev_rock_orm_512.ktx2"
+ },
+ "instanceFormat": "EVSI2"
+}

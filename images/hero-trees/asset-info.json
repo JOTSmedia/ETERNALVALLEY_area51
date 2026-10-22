@@ -1,0 +1,26 @@
+{
+  "source": "https://polyhaven.com/a/tree_small_02",
+  "license": "CC0",
+  "sourceLOD": 1,
+  "decimationRatio": 0.35,
+  "triangles": 173272,
+  "dimensionsBlenderMeters": [
+    2.925661563873291,
+    4.301935195922852,
+    4.575717449188232
+  ],
+  "textureResolution": [
+    4096,
+    4096
+  ],
+  "asset": "tree_small_02",
+  "sourceAPI": "https://api.polyhaven.com/files/tree_small_02",
+  "sourceLicense": "https://polyhaven.com/license",
+  "geometryCompression": "EXT_meshopt_compression",
+  "textureCompression": "KTX2 Basis Universal ETC1S, quality 180, compression level 1, mipmaps, linear normal/ARM maps",
+  "textureCount": 9,
+  "runtime": "3 instanced meshes, desktop default cap 8 and mobile cap 4, 180 m camera radius",
+  "limitations": "One green broadleaf species; pink blossom and conifer impostors are retained. Geometry silhouette transitions are discrete with distance hysteresis. No leaf wind simulation.",
+  "downloadBytes": 25430391,
+  "visualQA": "Exported GLB successfully re-imported and rendered in Blender with original 4K textures; checked leaf silhouette, trunk detail and geometry depth."
+}

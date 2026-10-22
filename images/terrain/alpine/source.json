@@ -1,0 +1,47 @@
+{
+  "width": 1280,
+  "height": 1280,
+  "xMin": -14646.257754277509,
+  "zMin": -16666.03455533499,
+  "metresPerSample": 26.585445973626513,
+  "quantization": 0.25,
+  "centerLatLon": [
+    45.9236,
+    6.869
+  ],
+  "zoom": 12,
+  "sources": [
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2124/1456.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2125/1456.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2126/1456.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2127/1456.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2128/1456.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2124/1457.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2125/1457.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2126/1457.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2127/1457.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2128/1457.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2124/1458.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2125/1458.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2126/1458.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2127/1458.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2128/1458.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2124/1459.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2125/1459.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2126/1459.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2127/1459.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2128/1459.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2124/1460.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2125/1460.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2126/1460.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2127/1460.png",
+    "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2128/1460.png"
+  ],
+  "attribution": "Mapzen/Tilezen Terrain Tiles on AWS. Europe terrain produced using Copernicus data and information funded by the European Union \u2014 EU-DEM layers. SRTM and GMTED2010 data courtesy of the U.S. Geological Survey.",
+  "modifications": "Rotated 180 degrees, horizontal scale 0.5 and vertical scale 0.62; elevation offset and smooth transition into the fictional sanctuary. Not a geographical representation of Chamonix.",
+  "accessed": "2026-10-22",
+  "elevationRangeMetres": [
+    555.9453125,
+    4789.8125
+  ]
+}

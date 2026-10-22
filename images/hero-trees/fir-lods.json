@@ -1,0 +1,68 @@
+{
+  "source": "https://polyhaven.com/a/fir_tree_01",
+  "license": "CC0",
+  "heightMeters": 18.957046508789062,
+  "baseY": 0,
+  "bounds": {
+    "min": [
+      -3.2415592670440674,
+      0,
+      -3.5599477291107178
+    ],
+    "max": [
+      3.3415348529815674,
+      18.957046508789062,
+      2.907454490661621
+    ]
+  },
+  "materials": {
+    "fir_tree_01_bark": {
+      "map": "images/hero-trees/fir_tree_01_bark_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/fir_tree_01_bark_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/fir_tree_01_bark_arm_4k.ktx2",
+      "foliage": false
+    },
+    "fir_tree_01_trunk_a": {
+      "map": "images/hero-trees/fir_tree_01_trunk_a_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/fir_tree_01_trunk_a_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/fir_tree_01_trunk_a_arm_4k.ktx2",
+      "foliage": false
+    },
+    "fir_tree_01_twig": {
+      "map": "images/hero-trees/fir_tree_01_twig_rgba_4k.ktx2",
+      "normalMap": "images/hero-trees/fir_tree_01_twig_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/fir_tree_01_twig_arm_4k.ktx2",
+      "foliage": true,
+      "alphaTest": 0.35,
+      "farAlphaTest": 0
+    },
+    "fir_tree_01_dead_branches": {
+      "map": "images/hero-trees/fir_tree_01_bark_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/fir_tree_01_bark_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/fir_tree_01_bark_arm_4k.ktx2",
+      "foliage": false
+    }
+  },
+  "lods": {
+    "near": {
+      "file": "images/hero-trees/fir_near.glb",
+      "triangles": 28997,
+      "bytes": 763992
+    },
+    "mid": {
+      "file": "images/hero-trees/fir_mid.glb",
+      "triangles": 7295,
+      "bytes": 197316
+    },
+    "far": {
+      "file": "images/hero-trees/fir_far.glb",
+      "triangles": 987,
+      "bytes": 23020
+    },
+    "farBotanical": {
+      "file": "images/hero-trees/fir_farBotanical.glb",
+      "triangles": 947,
+      "bytes": 31960
+    }
+  }
+}

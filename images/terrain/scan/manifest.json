@@ -1,0 +1,93 @@
+{
+ "resolution": 1024,
+ "layers": [
+  {
+   "key": "granite",
+   "source": "granite_rockface",
+   "tileMeters": 1.8,
+   "meanLinearAlbedo": [
+    0.401,
+    0.3397,
+    0.273
+   ],
+   "meanRoughness": 0.634
+  },
+  {
+   "key": "sandstone",
+   "source": "red_sandstone",
+   "tileMeters": 1.83,
+   "meanLinearAlbedo": [
+    0.2135,
+    0.0915,
+    0.0336
+   ],
+   "meanRoughness": 0.863
+  },
+  {
+   "key": "wetPebbles",
+   "source": "river_pebbles_wet",
+   "tileMeters": 2.16,
+   "meanLinearAlbedo": [
+    0.233,
+    0.1956,
+    0.1556
+   ],
+   "meanRoughness": 0.81
+  },
+  {
+   "key": "beachSand",
+   "source": "beach_sand",
+   "tileMeters": 1.8,
+   "meanLinearAlbedo": [
+    0.4619,
+    0.3422,
+    0.1652
+   ],
+   "meanRoughness": 0.657
+  },
+  {
+   "key": "desertSand",
+   "source": "desert_red_sand",
+   "tileMeters": 3.0,
+   "meanLinearAlbedo": [
+    0.2189,
+    0.1005,
+    0.0601
+   ],
+   "meanRoughness": 0.826
+  },
+  {
+   "key": "meadow",
+   "source": "meadow_grass",
+   "tileMeters": 2.0,
+   "meanLinearAlbedo": [
+    0.3307,
+    0.3063,
+    0.1115
+   ],
+   "meanRoughness": 0.463
+  },
+  {
+   "key": "forestFloor",
+   "source": "forest_floor",
+   "tileMeters": 1.5,
+   "meanLinearAlbedo": [
+    0.1531,
+    0.1085,
+    0.0642
+   ],
+   "meanRoughness": 0.9
+  },
+  {
+   "key": "snow",
+   "source": "snow",
+   "tileMeters": 2.0,
+   "meanLinearAlbedo": [
+    0.3785,
+    0.3784,
+    0.39
+   ],
+   "meanRoughness": 0.801
+  }
+ ]
+}

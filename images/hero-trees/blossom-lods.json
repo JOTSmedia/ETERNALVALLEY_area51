@@ -1,0 +1,62 @@
+{
+  "source": "https://polyhaven.com/a/jacaranda_tree",
+  "license": "CC0",
+  "heightMeters": 19.47311019897461,
+  "baseY": 0,
+  "bounds": {
+    "min": [
+      -12.92025089263916,
+      0,
+      -9.953813552856445
+    ],
+    "max": [
+      11.496798515319824,
+      19.47311019897461,
+      9.200760841369629
+    ]
+  },
+  "materials": {
+    "jacaranda_tree_trunk": {
+      "map": "images/hero-trees/jacaranda_tree_trunk_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/jacaranda_tree_trunk_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/jacaranda_tree_trunk_arm_4k.ktx2",
+      "foliage": false
+    },
+    "jacaranda_tree_branches": {
+      "map": "images/hero-trees/jacaranda_tree_branches_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/jacaranda_tree_branches_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/jacaranda_tree_branches_arm_4k.ktx2",
+      "foliage": false
+    },
+    "jacaranda_tree_leaves": {
+      "map": "images/hero-trees/jacaranda_tree_leaves_rgba_4k.ktx2",
+      "normalMap": "images/hero-trees/jacaranda_tree_leaves_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/jacaranda_tree_leaves_arm_4k.ktx2",
+      "foliage": true,
+      "alphaTest": 0.35,
+      "farAlphaTest": 0
+    }
+  },
+  "lods": {
+    "near": {
+      "file": "images/hero-trees/blossom_near.glb",
+      "triangles": 28716,
+      "bytes": 575560
+    },
+    "mid": {
+      "file": "images/hero-trees/blossom_mid.glb",
+      "triangles": 7394,
+      "bytes": 153736
+    },
+    "far": {
+      "file": "images/hero-trees/blossom_far.glb",
+      "triangles": 989,
+      "bytes": 19552
+    },
+    "farBotanical": {
+      "file": "images/hero-trees/blossom_farBotanical.glb",
+      "triangles": 949,
+      "bytes": 24336
+    }
+  }
+}

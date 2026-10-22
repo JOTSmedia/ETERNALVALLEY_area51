@@ -1,0 +1,29 @@
+{
+ "leaves": [
+  "fir_a",
+  "broadleaf_a",
+  "broadleaf_b",
+  "willow_a",
+  "red_maple_a",
+  "cherry_a",
+  "shrub_a",
+  "fern_a",
+  "desert_bush_a",
+  "shrub_a_bb",
+  "fern_a_bb",
+  "desert_bush_a_bb"
+ ],
+ "bark": [
+  "fir_a",
+  "broadleaf_a",
+  "broadleaf_b",
+  "willow_a",
+  "red_maple_a",
+  "cherry_a"
+ ],
+ "files": {
+  "ev_veg_leaves_1k.ktx2": 2341454,
+  "ev_veg_leaves_512.ktx2": 700141,
+  "ev_veg_bark_512.ktx2": 345211
+ }
+}

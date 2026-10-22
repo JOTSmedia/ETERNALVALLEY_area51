@@ -1,0 +1,11 @@
+{
+ "radius": 6.9617839995256094,
+ "pivot_offset_z": 5.119782225403469,
+ "grid": 8,
+ "res": 1024,
+ "mapping": "hemi-octahedral, Blender model frame (Z up); cell (i=col,j=row from top) <-> e=((i+.5)/8*2-1,(j+.5)/8*2-1); px=(ex+ey)/2, py=(ex-ey)/2, pz=1-|px|-|py|",
+ "basis": "f=-d; r=normalize(f x Zup) (X if degenerate); u=r x f; image right=r, up=u",
+ "normal": "object-space (Blender model frame) n*0.5+0.5",
+ "depth": "0.5 + (towards-camera offset)/(2R)",
+ "albedoAlpha": "cutout*(0.5+0.5*thickness); alphaTest 0.5; thick=saturate(a*2-1)"
+}

@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "species": {
+    "broadleaf": {
+      "source": "https://polyhaven.com/a/tree_small_02",
+      "license": "CC0",
+      "heightMeters": 4.564037322998047,
+      "baseY": 0,
+      "bounds": {
+        "min": [
+          -1.310724139213562,
+          0,
+          -1.3830231428146362
+        ],
+        "max": [
+          1.610710859298706,
+          4.564037322998047,
+          2.9096455574035645
+        ]
+      },
+      "materials": {
+        "tree_small_02_branches": {
+          "map": "images/hero-trees/tree_small_02_branch_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/tree_small_02_branch_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/tree_small_02_branch_arm_4k.ktx2",
+          "foliage": false
+        },
+        "tree_small_02_leaves": {
+          "map": "images/hero-trees/tree_small_02_leaves_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/tree_small_02_leaves_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/tree_small_02_leaves_arm_4k.ktx2",
+          "foliage": true
+        },
+        "tree_small_02_trunk": {
+          "map": "images/hero-trees/tree_small_02_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/tree_small_02_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/tree_small_02_arm_4k.ktx2",
+          "foliage": false
+        }
+      },
+      "lods": {
+        "near": {
+          "file": "images/hero-trees/broadleaf_near.glb",
+          "triangles": 28971,
+          "bytes": 734828
+        },
+        "mid": {
+          "file": "images/hero-trees/broadleaf_mid.glb",
+          "triangles": 7289,
+          "bytes": 194568
+        },
+        "far": {
+          "file": "images/hero-trees/broadleaf_far.glb",
+          "triangles": 989,
+          "bytes": 20376
+        },
+        "farBotanical": {
+          "file": "images/hero-trees/broadleaf_farBotanical.glb",
+          "triangles": 947,
+          "bytes": 28660,
+          "alphaTestMode": "foliage"
+        }
+      },
+      "sourceAPI": "https://api.polyhaven.com/files/tree_small_02",
+      "notes": "Near/mid preserve connected source leaf meshes with size compensation. Far uses closed source-fitted canopy volumes. farBotanical is optional sparse source leaf geometry; use normal foliage alphaTest, not farAlphaTest. No complete-tree billboards."
+    },
+    "fir": {
+      "source": "https://polyhaven.com/a/fir_tree_01",
+      "license": "CC0",
+      "heightMeters": 18.957046508789062,
+      "baseY": 0,
+      "bounds": {
+        "min": [
+          -3.2415592670440674,
+          0,
+          -3.5599477291107178
+        ],
+        "max": [
+          3.3415348529815674,
+          18.957046508789062,
+          2.907454490661621
+        ]
+      },
+      "materials": {
+        "fir_tree_01_bark": {
+          "map": "images/hero-trees/fir_tree_01_bark_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/fir_tree_01_bark_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/fir_tree_01_bark_arm_4k.ktx2",
+          "foliage": false
+        },
+        "fir_tree_01_trunk_a": {
+          "map": "images/hero-trees/fir_tree_01_trunk_a_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/fir_tree_01_trunk_a_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/fir_tree_01_trunk_a_arm_4k.ktx2",
+          "foliage": false
+        },
+        "fir_tree_01_twig": {
+          "map": "images/hero-trees/fir_tree_01_twig_rgba_4k.ktx2",
+          "normalMap": "images/hero-trees/fir_tree_01_twig_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/fir_tree_01_twig_arm_4k.ktx2",
+          "foliage": true,
+          "alphaTest": 0.35,
+          "farAlphaTest": 0
+        },
+        "fir_tree_01_dead_branches": {
+          "map": "images/hero-trees/fir_tree_01_bark_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/fir_tree_01_bark_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/fir_tree_01_bark_arm_4k.ktx2",
+          "foliage": false
+        }
+      },
+      "lods": {
+        "near": {
+          "file": "images/hero-trees/fir_near.glb",
+          "triangles": 28997,
+          "bytes": 763992
+        },
+        "mid": {
+          "file": "images/hero-trees/fir_mid.glb",
+          "triangles": 7295,
+          "bytes": 197316
+        },
+        "far": {
+          "file": "images/hero-trees/fir_far.glb",
+          "triangles": 987,
+          "bytes": 23020
+        },
+        "farBotanical": {
+          "file": "images/hero-trees/fir_farBotanical.glb",
+          "triangles": 947,
+          "bytes": 31960,
+          "alphaTestMode": "foliage"
+        }
+      },
+      "sourceAPI": "https://api.polyhaven.com/files/fir_tree_01",
+      "notes": "Near/mid preserve connected source leaf meshes with size compensation. Far uses closed source-fitted canopy volumes. farBotanical is optional sparse source leaf geometry; use normal foliage alphaTest, not farAlphaTest. No complete-tree billboards."
+    },
+    "blossom": {
+      "source": "https://polyhaven.com/a/jacaranda_tree",
+      "license": "CC0",
+      "heightMeters": 19.47311019897461,
+      "baseY": 0,
+      "bounds": {
+        "min": [
+          -12.92025089263916,
+          0,
+          -9.953813552856445
+        ],
+        "max": [
+          11.496798515319824,
+          19.47311019897461,
+          9.200760841369629
+        ]
+      },
+      "materials": {
+        "jacaranda_tree_trunk": {
+          "map": "images/hero-trees/jacaranda_tree_trunk_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/jacaranda_tree_trunk_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/jacaranda_tree_trunk_arm_4k.ktx2",
+          "foliage": false
+        },
+        "jacaranda_tree_branches": {
+          "map": "images/hero-trees/jacaranda_tree_branches_diff_4k.ktx2",
+          "normalMap": "images/hero-trees/jacaranda_tree_branches_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/jacaranda_tree_branches_arm_4k.ktx2",
+          "foliage": false
+        },
+        "jacaranda_tree_leaves": {
+          "map": "images/hero-trees/jacaranda_tree_leaves_rgba_4k.ktx2",
+          "normalMap": "images/hero-trees/jacaranda_tree_leaves_nor_gl_4k.ktx2",
+          "arm": "images/hero-trees/jacaranda_tree_leaves_arm_4k.ktx2",
+          "foliage": true,
+          "alphaTest": 0.35,
+          "farAlphaTest": 0
+        }
+      },
+      "lods": {
+        "near": {
+          "file": "images/hero-trees/blossom_near.glb",
+          "triangles": 28716,
+          "bytes": 575560
+        },
+        "mid": {
+          "file": "images/hero-trees/blossom_mid.glb",
+          "triangles": 7394,
+          "bytes": 153736
+        },
+        "far": {
+          "file": "images/hero-trees/blossom_far.glb",
+          "triangles": 989,
+          "bytes": 19552
+        },
+        "farBotanical": {
+          "file": "images/hero-trees/blossom_farBotanical.glb",
+          "triangles": 949,
+          "bytes": 24336,
+          "alphaTestMode": "foliage"
+        }
+      },
+      "sourceAPI": "https://api.polyhaven.com/files/jacaranda_tree",
+      "notes": "Near/mid preserve connected source leaf meshes with size compensation. Far uses closed source-fitted canopy volumes. farBotanical is optional sparse source leaf geometry; use normal foliage alphaTest, not farAlphaTest. No complete-tree billboards. Intermediate canopy limbs are reconstructed tapered meshes connecting scan canopy clusters to the scanned trunk."
+    }
+  }
+}

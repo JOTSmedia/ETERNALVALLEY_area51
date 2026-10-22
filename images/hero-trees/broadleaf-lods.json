@@ -1,0 +1,60 @@
+{
+  "source": "https://polyhaven.com/a/tree_small_02",
+  "license": "CC0",
+  "heightMeters": 4.564037322998047,
+  "baseY": 0,
+  "bounds": {
+    "min": [
+      -1.310724139213562,
+      0,
+      -1.3830231428146362
+    ],
+    "max": [
+      1.610710859298706,
+      4.564037322998047,
+      2.9096455574035645
+    ]
+  },
+  "materials": {
+    "tree_small_02_branches": {
+      "map": "images/hero-trees/tree_small_02_branch_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/tree_small_02_branch_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/tree_small_02_branch_arm_4k.ktx2",
+      "foliage": false
+    },
+    "tree_small_02_leaves": {
+      "map": "images/hero-trees/tree_small_02_leaves_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/tree_small_02_leaves_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/tree_small_02_leaves_arm_4k.ktx2",
+      "foliage": true
+    },
+    "tree_small_02_trunk": {
+      "map": "images/hero-trees/tree_small_02_diff_4k.ktx2",
+      "normalMap": "images/hero-trees/tree_small_02_nor_gl_4k.ktx2",
+      "arm": "images/hero-trees/tree_small_02_arm_4k.ktx2",
+      "foliage": false
+    }
+  },
+  "lods": {
+    "near": {
+      "file": "images/hero-trees/broadleaf_near.glb",
+      "triangles": 28971,
+      "bytes": 734828
+    },
+    "mid": {
+      "file": "images/hero-trees/broadleaf_mid.glb",
+      "triangles": 7289,
+      "bytes": 194568
+    },
+    "far": {
+      "file": "images/hero-trees/broadleaf_far.glb",
+      "triangles": 989,
+      "bytes": 20376
+    },
+    "farBotanical": {
+      "file": "images/hero-trees/broadleaf_farBotanical.glb",
+      "triangles": 947,
+      "bytes": 28660
+    }
+  }
+}

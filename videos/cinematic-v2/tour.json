@@ -1,0 +1,384 @@
+{
+  "title": "Eternal Valley \u2014 Two-Minute Journey",
+  "complete": true,
+  "coveredDestinations": 23,
+  "totalDestinations": 23,
+  "finishing": "AI-upscaled 4K; source render sizes recorded per clip",
+  "clips": [
+    {
+      "id": "valley-overview",
+      "sceneId": "valley-overview",
+      "sceneIds": [
+        "valley-overview"
+      ],
+      "src": "videos/cinematic-v2/short/valley-overview-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/valley-overview-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "gate-opening-test",
+      "sceneId": "grand-gate-closed",
+      "sceneIds": [
+        "grand-gate-closed",
+        "grand-gate-open"
+      ],
+      "src": "videos/cinematic-v2/short/gate-opening-test-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/gate-opening-test-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160,
+      "sceneOffsets": {
+        "grand-gate-closed": 0,
+        "grand-gate-open": 4
+      }
+    },
+    {
+      "id": "travel-gate-river",
+      "sceneId": "rainbow-river",
+      "sceneIds": [],
+      "src": "videos/cinematic-v2/short/travel-gate-river-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "title": "Through the gates, along the river",
+      "description": "Enter from the southern coast and follow the river north.",
+      "src4k": "videos/cinematic-v2/short/travel-gate-river-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "rainbow-river",
+      "sceneId": "rainbow-river",
+      "sceneIds": [
+        "rainbow-river"
+      ],
+      "src": "videos/cinematic-v2/short/rainbow-river-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/rainbow-river-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "rainbow-bridge",
+      "sceneId": "rainbow-bridge",
+      "sceneIds": [
+        "rainbow-bridge"
+      ],
+      "src": "videos/cinematic-v2/short/rainbow-bridge-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/rainbow-bridge-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "central-plaza",
+      "sceneId": "central-plaza",
+      "sceneIds": [
+        "central-plaza"
+      ],
+      "src": "videos/cinematic-v2/short/central-plaza-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/central-plaza-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "waterfall",
+      "sceneId": "waterfall",
+      "sceneIds": [
+        "waterfall"
+      ],
+      "src": "videos/cinematic-v2/short/waterfall-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/waterfall-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "travel-waterfall-pool",
+      "sceneId": "underwater-plunge-pool",
+      "sceneIds": [],
+      "src": "videos/cinematic-v2/short/travel-waterfall-pool-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "title": "Beneath the northern falls",
+      "description": "Descend from the cataract into its freshwater sanctuary.",
+      "src4k": "videos/cinematic-v2/short/travel-waterfall-pool-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "underwater-plunge-pool",
+      "sceneId": "underwater-plunge-pool",
+      "sceneIds": [
+        "underwater-plunge-pool"
+      ],
+      "src": "videos/cinematic-v2/short/underwater-plunge-pool-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/underwater-plunge-pool-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "cathedral",
+      "sceneId": "cathedral",
+      "sceneIds": [
+        "cathedral"
+      ],
+      "src": "videos/cinematic-v2/short/cathedral-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/cathedral-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "travel-cathedral-nave",
+      "sceneId": "cathedral-interior",
+      "sceneIds": [],
+      "src": "videos/cinematic-v2/short/travel-cathedral-nave-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "title": "Inside the cathedral",
+      "description": "Follow the terrace through the cathedral\u2019s entrance.",
+      "src4k": "videos/cinematic-v2/short/travel-cathedral-nave-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "cathedral-interior",
+      "sceneId": "cathedral-interior",
+      "sceneIds": [
+        "cathedral-interior"
+      ],
+      "src": "videos/cinematic-v2/short/cathedral-interior-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/cathedral-interior-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "desert-canyon",
+      "sceneId": "desert-canyon",
+      "sceneIds": [
+        "desert-canyon"
+      ],
+      "src": "videos/cinematic-v2/short/desert-canyon-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/desert-canyon-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "sun-kiva-exterior",
+      "sceneId": "sun-kiva-exterior",
+      "sceneIds": [
+        "sun-kiva-exterior"
+      ],
+      "src": "videos/cinematic-v2/short/sun-kiva-exterior-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/sun-kiva-exterior-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "kiva-interior",
+      "sceneId": "kiva-interior",
+      "sceneIds": [
+        "kiva-interior"
+      ],
+      "src": "videos/cinematic-v2/short/kiva-interior-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/kiva-interior-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "moorish-oasis",
+      "sceneId": "moorish-oasis",
+      "sceneIds": [
+        "moorish-oasis"
+      ],
+      "src": "videos/cinematic-v2/short/moorish-oasis-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/moorish-oasis-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "moorish-interior",
+      "sceneId": "moorish-interior",
+      "sceneIds": [
+        "moorish-interior"
+      ],
+      "src": "videos/cinematic-v2/short/moorish-interior-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/moorish-interior-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "underwater-bathymetric",
+      "sceneId": "underwater-bathymetric",
+      "sceneIds": [
+        "underwater-bathymetric"
+      ],
+      "src": "videos/cinematic-v2/short/underwater-bathymetric-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/underwater-bathymetric-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "waterfall-lake",
+      "sceneId": "waterfall-lake",
+      "sceneIds": [
+        "waterfall-lake"
+      ],
+      "src": "videos/cinematic-v2/short/waterfall-lake-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/waterfall-lake-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "underwater-koi",
+      "sceneId": "underwater-koi",
+      "sceneIds": [
+        "underwater-koi"
+      ],
+      "src": "videos/cinematic-v2/short/underwater-koi-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/underwater-koi-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "zen-pagoda",
+      "sceneId": "zen-pagoda",
+      "sceneIds": [
+        "zen-pagoda"
+      ],
+      "src": "videos/cinematic-v2/short/zen-pagoda-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/zen-pagoda-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "pagoda-interior",
+      "sceneId": "pagoda-interior",
+      "sceneIds": [
+        "pagoda-interior"
+      ],
+      "src": "videos/cinematic-v2/short/pagoda-interior-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/pagoda-interior-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "kaya-island",
+      "sceneId": "kaya-island",
+      "sceneIds": [
+        "kaya-island"
+      ],
+      "src": "videos/cinematic-v2/short/kaya-island-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/kaya-island-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "travel-island-reef",
+      "sceneId": "underwater-coral-reef",
+      "sceneIds": [],
+      "src": "videos/cinematic-v2/short/travel-island-reef-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "title": "From Kaya Island to the reef",
+      "description": "Descend from the island shore into its surrounding coral sanctuary.",
+      "src4k": "videos/cinematic-v2/short/travel-island-reef-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "coral-reef-motion-test",
+      "sceneId": "underwater-coral-reef",
+      "sceneIds": [
+        "underwater-coral-reef"
+      ],
+      "src": "videos/cinematic-v2/short/coral-reef-motion-test-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/coral-reef-motion-test-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    },
+    {
+      "id": "underwater-abyss",
+      "sceneId": "underwater-abyss",
+      "sceneIds": [
+        "underwater-abyss"
+      ],
+      "src": "videos/cinematic-v2/short/underwater-abyss-1080p.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 5,
+      "src4k": "videos/cinematic-v2/short/underwater-abyss-4k.mp4",
+      "finishedWidth": 3840,
+      "finishedHeight": 2160
+    }
+  ],
+  "edition": "short",
+  "durationSeconds": 130,
+  "editMethod": "Five-second destination excerpts; complete gate, island approach and connecting journeys retimed to preserve matching endpoints.",
+  "sourceEdition": "tour-extended.json",
+  "additionalRunwayCredits": 0,
+  "distribution": "area51 GitHub test build; H.264 4K streaming encode, original masters retained outside the upload folder"
+}

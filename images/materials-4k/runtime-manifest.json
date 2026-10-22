@@ -1,0 +1,215 @@
+{
+  "textures": [
+    {
+      "file": "images/materials-4k/bark_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3799093
+    },
+    {
+      "file": "images/materials-4k/bark_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3999356
+    },
+    {
+      "file": "images/materials-4k/bark_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2748930
+    },
+    {
+      "file": "images/materials-4k/grass_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 4063745
+    },
+    {
+      "file": "images/materials-4k/grass_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 4350296
+    },
+    {
+      "file": "images/materials-4k/grass_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 1994291
+    },
+    {
+      "file": "images/materials-4k/marble_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2671832
+    },
+    {
+      "file": "images/materials-4k/marble_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 287323
+    },
+    {
+      "file": "images/materials-4k/marble_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 648094
+    },
+    {
+      "file": "images/materials-4k/mud_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3722917
+    },
+    {
+      "file": "images/materials-4k/mud_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 4171465
+    },
+    {
+      "file": "images/materials-4k/mud_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2801940
+    },
+    {
+      "file": "images/materials-4k/paving_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3768758
+    },
+    {
+      "file": "images/materials-4k/paving_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2213957
+    },
+    {
+      "file": "images/materials-4k/paving_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3258717
+    },
+    {
+      "file": "images/materials-4k/rock_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3485046
+    },
+    {
+      "file": "images/materials-4k/rock_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3136263
+    },
+    {
+      "file": "images/materials-4k/rock_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2935691
+    },
+    {
+      "file": "images/materials-4k/roof_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2945760
+    },
+    {
+      "file": "images/materials-4k/roof_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2242422
+    },
+    {
+      "file": "images/materials-4k/roof_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2609928
+    },
+    {
+      "file": "images/materials-4k/sand_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2669928
+    },
+    {
+      "file": "images/materials-4k/sand_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3803186
+    },
+    {
+      "file": "images/materials-4k/sand_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2722846
+    },
+    {
+      "file": "images/materials-4k/stone_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3509793
+    },
+    {
+      "file": "images/materials-4k/stone_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 3851047
+    },
+    {
+      "file": "images/materials-4k/stone_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 1910026
+    },
+    {
+      "file": "images/materials-4k/timber_diff.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 2655026
+    },
+    {
+      "file": "images/materials-4k/timber_nor.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 1648736
+    },
+    {
+      "file": "images/materials-4k/timber_rough.ktx2",
+      "width": 4096,
+      "height": 4096,
+      "mipLevels": 13,
+      "bytes": 315403
+    }
+  ],
+  "bytes": 84941815
+}
